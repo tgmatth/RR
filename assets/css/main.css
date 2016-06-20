@@ -2641,7 +2641,8 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #ec1313;
+			/*Red background tgm*/
+			background-color: #D40A0A;
 			color: #c7ebe8;
 		}
 
@@ -2799,7 +2800,8 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			/*bottom icon color tgm*/
+			background-color: #D40A0A;
 			color: #d3d4e4;
 		}
 
