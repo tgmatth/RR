@@ -3845,6 +3845,79 @@
 		background-attachment: scroll;
 	}		
 
+	/* newsletter */
+
+		#newsletter > header {
+			padding: 12em 0 10em 0 ;
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/fay-exteriorc.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/fay-exteriorc.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/fay-exteriorc.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/fay-exteriorc.jpg");
+			/*background-attachment: fixed;*/
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: center;
+		}
+
+			#newsletter > header h2 {
+				font-size: 1.75em;
+				margin: 0 0 0.5em 0;
+			}
+
+			#newsletter > header p {
+				color: inherit;
+				letter-spacing: 0.225em;
+				text-transform: uppercase;
+				top: 0;
+			}
+
+				#newsletter > header p a {
+					color: inherit;
+				}
+
+			@media screen and (max-width: 1680px) {
+
+				#newsletter > header {
+					padding: 10em 0 8em 0 ;
+				}
+
+			}
+
+			@media screen and (max-width: 1280px) {
+
+				#newsletter > header {
+					padding: 8em 3em 6em 3em ;
+				}
+
+			}
+
+			@media screen and (max-width: 980px) {
+
+				#newsletter > header {
+					padding: 10em 3em 8em 3em ;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#newsletter > header {
+					padding: 5em 3em 3em 3em ;
+				}
+
+					#newsletter > header h2 {
+						font-size: 1.25em;
+						margin: 0 0 1em 0;
+					}
+
+			}
+
+		body.is-mobile #newsletter > header {
+			background-attachment: scroll;
+		}		
+
+
 /* Footer */
 
 	#footer {
