@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Newsletter - Rush Running Company</title>
+		<title>Trails</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -32,9 +32,13 @@
 											<li><a href="ask-miles.html">Ask Miles</a></li>
 											<li><a href="ask-drew.html">Ask Drew</a></li>
 											<li><a href="products.html">Products</a></li>
-											<li><a href="newsletter.html">Newsletter - Subscribe</a></li>
 											<li><a href="videos.html">Cool Videos</a></li>
 											<li><a href="trails.html">Trails</a></li>
+										<!--	
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">Log In</a></li>
+										-->	
 										</ul>
 									</div>
 								</li>
@@ -43,34 +47,21 @@
 					</header>
 
 				<!-- Main -->
-					<article id="newsletter">
+					<article id="trails">
 						<header>
-							<h2>Newsletter - Subscribe</h2>
+							<h2>Trails</h2>
 						</header>
 						<section class="wrapper style2">
 							<div class="inner">
-								<form action="./files/mailer.php" method="post" enctype="multipart/form-data">
-									 <div>
-										<label>Your Name:</label> <br />
-										<input class="form-input-field" type="text" value="" name="form[element0]" size="40"/><br /><br />
+								<p>Razorback Greenway</p>
+								<p>Slaughter Pen</p>
+								<p>Hobbs</p>
+								<p>Blowing Springs</p>
+								<p>Bella Vista<p>
+								<center><p><img src="images/BVista-trails.jpg" alt="" /></p></center>
+								<p>Devils Den</p>
 
-										<label>Your Email:</label> *<br />
-										<input class="form-input-field" type="text" value="" name="form[element1]" size="40"/><br /><br />
 
-										 
-										<input type="checkbox" name="form[element2]" value="yes"/>
-										<label for="form[element2]">*Subscribe to Newsletter:</label>
-										<br /><br />
-
-										<div style="display: none;">
-											<label>Spam Protection: Please don't fill this in:</label>
-											<textarea name="comment" rows="1" cols="1"></textarea>
-										</div>
-										<input type="hidden" name="form_token" value="809563263576c904fbb1fd" />
-										<input class="form-input-button" type="reset" name="resetButton" value="Reset" />
-										<input class="form-input-button" type="submit" name="submitButton" value="Subscribe" />
-									</div>
-								</form>
 							</div>
 						</section>
 					</article>
