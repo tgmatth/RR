@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 //////////////////////////////////////////////////////
 
 //set the return URL
-$return_url = "../ask-miles-test.html";
+$return_url = "../ask-miles-test.php";
 
 //set the users email address
 $email = "tgmatth@gmail.com";

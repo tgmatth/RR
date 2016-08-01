@@ -10,10 +10,11 @@ error_reporting(E_ALL);
 //////////////////////////////////////////////////////
 
 //set the return URL
-$return_url = "../page18.php";
+$return_url = "../ask-drew.php";
 
 //set the users email address
 $email = "rundrewrun22@yahoo.com";
+//$email = "tgmatth@gmail.com";
 
 //array of fields in form. (In the format "field_name" => "field_label")
 $form_fields = array(

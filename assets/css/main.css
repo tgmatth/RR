@@ -1390,7 +1390,6 @@
 	}
 
 /* Basic */
-
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -1594,7 +1593,6 @@
 	}
 
 /* Section/Article */
-
 	section.special, article.special {
 		text-align: center;
 	}
@@ -1654,7 +1652,6 @@
 	}
 
 /* Form */
-
 	form {
 		margin: 0 0 2em 0;
 	}
@@ -1848,7 +1845,6 @@
 	}
 
 /* Box */
-
 	.box {
 		border-radius: 3px;
 		border: solid 2px #fff;
@@ -2800,6 +2796,48 @@
 			background-color: #2e3842;
 		}
 
+		.wrapper.style2 input[type="checkbox"] + label,
+			.wrapper.style2 input[type="radio"] + label {
+				color: #d3d4e4;
+			}
+
+				.wrapper.style2 input[type="checkbox"] + label:before,
+				.wrapper.style2 input[type="radio"] + label:before {
+					background: rgba(255, 255, 255, 0.075);
+				}
+
+			.wrapper.style2 input[type="checkbox"]:checked + label:before,
+			.wrapper.style2 input[type="radio"]:checked + label:before {
+				background: #ffffff;
+				color: #505393;
+			}
+
+			.wrapper.style2 input[type=checkbox]:checked  +label:after {		
+    			background-color: grey;
+			}
+			/*
+			.wrapper.style2 input[type='checkbox']:checked + label {
+    			background-color:red
+			}
+			*/
+			.wrapper.style2 input[type="checkbox"],
+			.wrapper.style2 input[type="radio"] {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+				appearance: none;
+				display: block;
+				float: left;
+				margin-right: -2em;
+				opacity: 0;
+				width: 1em;
+				z-index: -1;
+			}
+
+
+
+
+
 		.wrapper.style3 {
 			/*bottom icon color tgm*/
 			background-color: #D40A0A;
@@ -2868,6 +2906,10 @@
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background: #ffffff;
 				color: #505393;
+			}
+
+			.wrapper.style3 input[type=checkbox]:checked  +label:after {		
+    			background-color: grey;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {

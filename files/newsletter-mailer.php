@@ -7,10 +7,11 @@ session_start();
 //////////////////////////////////////////////////////
 
 //set the return URL
-$return_url = "../page3.php";
+$return_url = "../newsletter.php";
 
 //set the users email address
 $email = "runrunmikerush@yahoo.com";
+//$email = "tgmatth@gmail.com";
 
 //array of fields in form. (In the format "field_name" => "field_label")
 $form_fields = array(
@@ -47,7 +48,8 @@ if ( ! isset($_POST['form_token']) || $_POST['form_token'] !== $_SESSION['securi
 
 // SPAM checking. If the "comment" form field has been filled out,
 // send back to form asking to remove content and exit the script.
-if ($_POST['comment']) {
+if
+ ($_POST['comment']) {
 	redirect($return_url, 'Please remove content from the last textarea before submitting the form again. This is to protect against SPAM abuse.');
 }
 

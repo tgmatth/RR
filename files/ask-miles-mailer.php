@@ -10,10 +10,11 @@ error_reporting(E_ALL);
 //////////////////////////////////////////////////////
 
 //set the return URL
-$return_url = "../page17.php";
+$return_url = "../ask-miles.php";
 
 //set the users email address
 $email = "runrunmikerush@yahoo.com";
+//$email = "tgmatth@gmail.com";
 
 //array of fields in form. (In the format "field_name" => "field_label")
 $form_fields = array(
