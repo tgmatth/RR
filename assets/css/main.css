@@ -2795,7 +2795,7 @@
 		.wrapper.style2 {
 			background-color: #2e3842;
 		}
-
+/*
 		.wrapper.style2 input[type="checkbox"] + label,
 			.wrapper.style2 input[type="radio"] + label {
 				color: #d3d4e4;
@@ -2815,11 +2815,13 @@
 			.wrapper.style2 input[type=checkbox]:checked  +label:after {		
     			background-color: grey;
 			}
+*/
 			/*
 			.wrapper.style2 input[type='checkbox']:checked + label {
     			background-color:red
 			}
 			*/
+/*
 			.wrapper.style2 input[type="checkbox"],
 			.wrapper.style2 input[type="radio"] {
 		-moz-appearance: none;
@@ -2833,11 +2835,7 @@
 				width: 1em;
 				z-index: -1;
 			}
-
-
-
-
-
+*/
 		.wrapper.style3 {
 			/*bottom icon color tgm*/
 			background-color: #D40A0A;
@@ -2907,11 +2905,11 @@
 				background: #ffffff;
 				color: #505393;
 			}
-
+/*
 			.wrapper.style3 input[type=checkbox]:checked  +label:after {		
     			background-color: grey;
 			}
-
+*/
 			.wrapper.style3 ::-webkit-input-placeholder {
 				color: #b9bad3 !important;
 			}
