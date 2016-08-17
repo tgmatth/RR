@@ -2606,6 +2606,135 @@
 
 		}
 
+/* stafflight */
+
+	.stafflight {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+	}
+
+		.stafflight .image {
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			width: 40%;
+		}
+
+			.stafflight .image img {
+				border-radius: 0;
+				max-width: 23em;
+				width: 100%;
+			}
+
+		.stafflight .content {
+			padding: 2em 4em 0.1em 4em ;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			max-width: 48em;
+			width: 60%;
+		}
+
+		.stafflight:nth-child(2n) {
+			-moz-flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-ms-flex-direction: row-reverse;
+			flex-direction: row-reverse;
+		}
+
+		.stafflight:nth-child(1) {
+			background-color: rgba(0, 0, 0, 0.075);
+		}
+
+		.stafflight:nth-child(2) {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+
+		.stafflight:nth-child(3) {
+			background-color: rgba(0, 0, 0, 0.225);
+		}
+
+		.stafflight:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.3);
+		}
+
+		.stafflight:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.375);
+		}
+
+		.stafflight:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.45);
+		}
+
+		.stafflight:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0.525);
+		}
+
+		.stafflight:nth-child(8) {
+			background-color: rgba(0, 0, 0, 0.6);
+		}
+
+		.stafflight:nth-child(9) {
+			background-color: rgba(0, 0, 0, 0.675);
+		}
+
+		.stafflight:nth-child(10) {
+			background-color: rgba(0, 0, 0, 0.75);
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.stafflight .image {
+				width: 45%;
+			}
+
+			.stafflight .content {
+				width: 55%;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.stafflight {
+				display: block;
+			}
+
+				.stafflight br {
+					display: none;
+				}
+
+				.stafflight .image {
+					width: 100%;
+				}
+
+				.stafflight .content {
+					padding: 4em 3em 2em 3em ;
+					max-width: none;
+					text-align: center;
+					width: 100%;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.stafflight .content {
+				padding: 3em 2em 1em 2em ;
+			}
+
+		}
+
+
 /* Wrapper */
 
 	.wrapper {
