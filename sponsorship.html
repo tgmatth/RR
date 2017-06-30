@@ -115,13 +115,13 @@
 										<input class="form-input-field" type="date" value="<?php echo check('element1'); ?>" name="form[element1]" size="10"/><br />
 
 										<label>* Event Time:</label> 
-										<input class="form-input-field" type="time" value="<?php echo check('element2'); ?>" name="form[element2]" size="10"/><br />
+										<input class="form-input-field" type="text" value="<?php echo check('element2'); ?>" name="form[element2]" size="60"/><br />
 
 										<label>* What city is this event located?:</label>
 										<input class="form-input-field" type="text" value="<?php echo check('element3'); ?>" name="form[element3]" size="40"/><br />
 
-										<label>Event Website:</label>
-										<input class="form-input-field" type="url" value="http://"<?php echo check('element4'); ?>" name="form[element4]" size="255"/><br />
+										<label>* Event Website:</label>
+										<input class="form-input-field" type="text" value="<?php echo check('element4'); ?>" name="form[element4]" size="255"/><br />
 
 										<label>Event Facebook:</label> 
 										<input class="form-input-field" type="text" value="<?php echo check('element5'); ?>" name="form[element5]" size="255"/><br />
@@ -140,7 +140,7 @@
 										<input class="form-input-field" type="text" value="<?php echo check('element9'); ?>" name="form[element9]" size="30"><br />
 
 										<label>* E-mail Address:</label>
-										<input class="form-input-field" type="email" value="<?php echo check('element10'); ?>" name="form[element10]" size="255"/><br />
+										<input class="form-input-field" type="text" value="<?php echo check('element10'); ?>" name="form[element10]" size="255"/><br />
 
 										<label>* Phone:</label> 
 										<input class="form-input-field" type="text" value="<?php echo check('element11'); ?>" name="form[element11]" size="14"/><br />
@@ -215,21 +215,21 @@
 
 										<h3>Planning Information</h3>	
 										<label>* How many participants do you expect at this event?:</label>
-										<input class="form-input-field" type="number" min="0" max="99999" value="0"<?php echo check('element17'); ?>" name="form[element17]" size="6"/><br />
+										<input class="form-input-field" type="text" value="<?php echo check('element17'); ?>" name="form[element17]" size="50"/><br />
 
 										<input class="form-input-field" type="checkbox" id="first-year" value="Yes" name="form[element18]" size="1"/>
-										<label for="first-year">Check this box, if this is the first year for this event?</label>
+										<label for="first-year">*Is this the first year for this event?</label>
 										<br />
  
-										<label>How many participants did you have at this event last year?:</label> 
-										<input class="form-input-field" type="number" min="0" max="99999" value="0"<?php echo check('element19'); ?>" name="form[element19]" size="6"/><br />
+										<label>* How many participants did you have at this event last year?:</label> 
+										<input class="form-input-field" type="text" value="<?php echo check('element19'); ?>" name="form[element19]" size="50"/><br />
 
 										<h3>Sponsorship Request</h3>
 										<label>* Please state the level of sponsorship/donation that you are seeking for this event. Our goal is to provide a quality experience for the events that we support:</label> 
 										<input class="form-input-field" type="text" value="<?php echo check('element20'); ?>" name="form[element20]" size="1000"/><br />
 
 										<label>* Depending on sponsorship level it will be required to have on-site packet pickup at a Rush Running location.  Do you agree with this requirement?</label>
-										<!--<?php $element21 = trim( strtolower($_GET['element21']) ); ?> -->
+										<?php $element21 = trim( strtolower($_GET['element21']) ); ?>
 										<select id="pickup" name="form[element21]">
                                             <option value="Yes" <?php if($element21 == "Yes") echo "Yes"; ?>>
                                             	Yes
@@ -249,7 +249,6 @@
 
                                         <label>* Signature:</label> 
 										<input class="form-input-field" type="text" value="<?php echo check('element23'); ?>" name="form[element23]" size="60"/><br />
-										
 
 										<div style="display: none;">
 											<label>Spam Protection: Please don't fill this in:</label>
@@ -257,7 +256,7 @@
 										</div>
 										<input type="hidden" name="form_token" value="<?php echo $security_token; ?>" />
 										<input class="form-input-button" type="reset" name="resetButton" value="Reset" />
-										<input class="form-input-button" type="submit" name="submitButton" value="Submit" />
+										<input class="form-input-button" type="submit" name="submitButton" value="Ask your question!" />
 									</div>
 								</form>
 								<br />

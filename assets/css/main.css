@@ -1665,6 +1665,10 @@
 	}
 
 	input[type="text"],
+	input[type="date"],
+	input[type="time"],
+	input[type="url"],
+	input[type="number"],
 	input[type="password"],
 	input[type="email"],
 	select,
@@ -2923,8 +2927,8 @@
 
 		.wrapper.style2 {
 			background-color: #2e3842;
-		}
-/*
+		}	
+/*tgm
 		.wrapper.style2 input[type="checkbox"] + label,
 			.wrapper.style2 input[type="radio"] + label {
 				color: #d3d4e4;
@@ -2944,13 +2948,11 @@
 			.wrapper.style2 input[type=checkbox]:checked  +label:after {		
     			background-color: grey;
 			}
-*/
-			/*
+
 			.wrapper.style2 input[type='checkbox']:checked + label {
     			background-color:red
 			}
-			*/
-/*
+		
 			.wrapper.style2 input[type="checkbox"],
 			.wrapper.style2 input[type="radio"] {
 		-moz-appearance: none;
@@ -4229,6 +4231,78 @@
 		}
 
 	body.is-mobile #miles > header {
+		background-attachment: scroll;
+	}			
+
+/* sponsorship */
+
+	#sponsorship > header {
+		padding: 12em 0 10em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/classic-race-start-wide.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/classic-race-start-wide.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/classic-race-start-wide.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/classic-race-start-wide.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+		#sponsorship > header h2 {
+			font-size: 1.75em;
+			margin: 0 0 0.5em 0;
+		}
+
+		#sponsorship > header p {
+			color: inherit;
+			letter-spacing: 0.225em;
+			text-transform: uppercase;
+			top: 0;
+		}
+
+			#sponsorship > header p a {
+				color: inherit;
+			}
+
+		@media screen and (max-width: 1680px) {
+
+			#sponsorship > header {
+				padding: 10em 0 8em 0 ;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			#sponsorship > header {
+				padding: 8em 3em 6em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			#sponsorship > header {
+				padding: 10em 3em 8em 3em ;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#sponsorship > header {
+				padding: 5em 3em 3em 3em ;
+			}
+
+				#sponsorship > header h2 {
+					font-size: 1.25em;
+					margin: 0 0 1em 0;
+				}
+
+		}
+
+	body.is-mobile #sponsorship > header {
 		background-attachment: scroll;
 	}			
 	/* newsletter */
